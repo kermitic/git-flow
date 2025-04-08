@@ -1,0 +1,13 @@
+{
+  "name": "git-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hjlee",
+  "license": "ISC"
+}
