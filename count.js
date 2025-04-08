@@ -5,5 +5,5 @@ export function increase(n = 1) {
 }
 
 export function decrease() {
-  return (count -= 1
+  return (count -= 1);
 }
