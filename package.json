@@ -5,9 +5,12 @@
   "main": "mainjs",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "hjlee",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^11.1.0"
+  }
 }
