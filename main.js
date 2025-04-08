@@ -1,3 +1,4 @@
-import { count } from './count.js';
+import { count, increment } from './count.js';
 
-console.log(count); // 0
+increment();
+console.log(count); // 1
