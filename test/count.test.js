@@ -1,12 +1,12 @@
 import assert from 'assert';
-import { count, increase } from '../count.js';
+import { count, increment } from '../count.js';
 
-it('increase 함수를 호출하면, count 데이터가 1 증가!', () => {
+it('increment 함수를 호출하면, count 데이터가 1 증가!', () => {
   assert.equal(count, 0);
-  increase();
+  increment();
   assert.equal(count, 1); // 성공!
 });
 
-it('increase 함수를 호출하면, count 값을 반환!', () => {
-  assert.equal(increase(), count);
+it('increment 함수를 호출하면, count 값을 반환!', () => {
+  assert.equal(increment(), count);
 });
